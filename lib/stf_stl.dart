@@ -17,17 +17,6 @@ class Firstscreen1 extends StatefulWidget {
 }
 
 class _Firstscreen1State extends State<Firstscreen1> {
-  @override
-  void initState() {
-    print("initstate");
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    print("dispose");
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
