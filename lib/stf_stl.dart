@@ -8,6 +8,7 @@ class Firstscreen extends StatelessWidget {
     return const Placeholder();
   }
 }
+
 class Firstscreen1 extends StatefulWidget {
   const Firstscreen1({super.key});
 
@@ -21,11 +22,13 @@ class _Firstscreen1State extends State<Firstscreen1> {
     print("initstate");
     super.initState();
   }
+
   @override
   void dispose() {
     print("dispose");
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
