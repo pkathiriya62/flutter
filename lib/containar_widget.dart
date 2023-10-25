@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class ContainerWidget extends StatefulWidget {
@@ -14,7 +12,7 @@ class _ContainerWidgetState extends State<ContainerWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor:Colors.blue,
+        backgroundColor: Colors.blue,
         title: Center(child: Text('Hello')),
       ),
       body: Center(
@@ -22,7 +20,7 @@ class _ContainerWidgetState extends State<ContainerWidget> {
           margin: EdgeInsets.all(20),
           padding: EdgeInsets.all(10),
           height: 200,
-          width:200,
+          width: 200,
           decoration: BoxDecoration(
             boxShadow: [
               BoxShadow(
@@ -33,12 +31,10 @@ class _ContainerWidgetState extends State<ContainerWidget> {
             border: Border.all(),
             color: Colors.lightBlueAccent,
             borderRadius: BorderRadius.circular(10),
-            ),
-          child: Center(child: Text('HELLO')),
           ),
+          child: Center(child: Text('HELLO')),
+        ),
       ),
-
-      );
-
+    );
   }
 }
