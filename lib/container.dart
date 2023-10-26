@@ -27,6 +27,14 @@ class _BoxWidgetState extends State<BoxWidget> {
                 blurRadius: 30,
               ),
             ],
+            gradient: LinearGradient(
+              begin: Alignment.bottomLeft,
+              end: Alignment.topLeft,
+              colors:[
+              Colors.blue,
+              Colors.green,
+              ],
+            ),
             //shape: BoxShape.circle,
             border: Border.all(),
             color: Colors.blueGrey,
