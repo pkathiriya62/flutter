@@ -38,7 +38,7 @@ class _BoxWidgetState extends State<BoxWidget> {
             //shape: BoxShape.circle,
             border: Border.all(),
             color: Colors.blueGrey,
-            borderRadius: BorderRadius.circular(30),
+            borderRadius: BorderRadius.circular(200),
           ),
           child: Center(child: Text('Fine')),
         ),
