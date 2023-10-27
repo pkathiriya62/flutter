@@ -11,10 +11,11 @@ class _SafeAreaScreenState extends State<SafeAreaScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(onPressed: (){},child: Icon(Icons.add)),
+      floatingActionButton:
+          FloatingActionButton(onPressed: () {}, child: Icon(Icons.add)),
       appBar: AppBar(
-        backgroundColor:Color.fromARGB(255, 55, 31, 234),
-        title:Center(child: Text('SAFEAREA')),
+        backgroundColor: Color.fromARGB(255, 55, 31, 234),
+        title: Center(child: Text('SAFEAREA')),
       ),
       //drawer: AppBar(),
       body: Center(
@@ -25,12 +26,11 @@ class _SafeAreaScreenState extends State<SafeAreaScreen> {
           child: Container(
             height: 200,
             width: 200,
-            
             decoration: BoxDecoration(
-              color:Colors.indigoAccent,
+              color: Colors.indigoAccent,
               boxShadow: [
                 BoxShadow(
-                  blurRadius: 20,
+                  blurRadius: 70,
                 ),
               ],
               gradient: LinearGradient(
@@ -42,14 +42,20 @@ class _SafeAreaScreenState extends State<SafeAreaScreen> {
                 ],
               ),
               //shape: BoxShape.circle,
-              border: Border.all(),
-             
+              border: Border.all(width: 5),
+
               borderRadius: BorderRadius.circular(20),
             ),
-            child: TextButton(onPressed: (){},
-            child: Text('click here!',style: TextStyle(fontSize: 14,fontWeight: FontWeight.w700,color:Colors.amber,),
-            )
-            ),
+            child: TextButton(
+                onPressed: () {},
+                child: Text(
+                  'click here!',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.amber,
+                  ),
+                )),
           ),
         ),
       ),
