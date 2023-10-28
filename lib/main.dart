@@ -1,4 +1,4 @@
-import 'package:first_project/safearea.dart';
+//import 'package:first_project/safearea.dart';
 import 'package:first_project/screen.dart';
 //import 'package:first_project/stf_stl.dart';
 import 'package:flutter/material.dart';
