@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SafeAreaScreen extends StatefulWidget {
   const SafeAreaScreen({super.key});
@@ -50,11 +51,10 @@ class _SafeAreaScreenState extends State<SafeAreaScreen> {
                 onPressed: () {},
                 child: Text(
                   'click here!',
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w700,
+                  style: GoogleFonts.aBeeZee(
+                    fontSize: 22,
                     color: Colors.amber,
-                  ),
+                  )
                 )),
           ),
         ),
