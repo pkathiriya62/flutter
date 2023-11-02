@@ -24,8 +24,8 @@ class _ImageWidget1State extends State<ImageWidget1> {
       ),
       body: Center(
         child: Container(
-          height: 200,
-          width: 200,
+          height:400,
+          width: 400,
           decoration: BoxDecoration(
             color: Colors.lightBlueAccent,
             image: DecorationImage(

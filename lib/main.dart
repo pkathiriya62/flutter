@@ -1,4 +1,6 @@
 import 'package:first_project/image_widget1.dart';
+import 'package:first_project/practice.dart';
+import 'package:first_project/practice1.dart';
 //import 'package:first_project/safearea.dart';
 //import 'package:first_project/screen.dart';
 //import 'package:first_project/stf_stl.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ImageWidget1(),
+      home: const PracticeScreen1(),
     );
   }
 }
