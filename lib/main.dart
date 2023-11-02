@@ -1,5 +1,5 @@
-import 'package:first_project/image_widget1.dart';
-import 'package:first_project/practice.dart';
+//import 'package:first_project/image_widget1.dart';
+//import 'package:first_project/practice.dart';
 import 'package:first_project/practice1.dart';
 //import 'package:first_project/safearea.dart';
 //import 'package:first_project/screen.dart';
