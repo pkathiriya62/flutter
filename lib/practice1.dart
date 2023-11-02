@@ -56,6 +56,9 @@ class _PracticeScreen1State extends State<PracticeScreen1> {
                   image: DecorationImage(image: NetworkImage('https://cdn.iconfinder.com/data/family/previews/preview/pop.png?indexed=1694684691'),),
               ),
             ),
+            Container(
+              child: Text('practice',style: GoogleFonts.aBeeZee(fontSize:50),),
+            ),
           ],
         ),
       ),
