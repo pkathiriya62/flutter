@@ -1,9 +1,4 @@
-//import 'package:first_project/image_widget1.dart';
-//import 'package:first_project/practice.dart';
-import 'package:first_project/practice1.dart';
-//import 'package:first_project/safearea.dart';
-//import 'package:first_project/screen.dart';
-//import 'package:first_project/stf_stl.dart';
+import 'package:first_project/row_column_drawer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PracticeScreen1(),
+      home: const RowColumnWidget(),
     );
   }
 }
