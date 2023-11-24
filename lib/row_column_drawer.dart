@@ -41,7 +41,7 @@ class _RowColumnWidgetState extends State<RowColumnWidget> {
                 ),
               ),
               SizedBox(height: 50),
-              Row(
+              Column(
                 children: [
                   Icon(Icons.abc),
                   SizedBox(width: 50),
@@ -55,6 +55,13 @@ class _RowColumnWidgetState extends State<RowColumnWidget> {
                   Icon(Icons.wallet),
                   SizedBox(width: 50),
                   Text('balance'),
+                  SizedBox(
+                    height: 50,
+                  ),
+                  Icon(Icons.accessibility_new),
+                  SizedBox(width: 50),
+                  Text('accessibility'),
+
                 ],
               ),
             ],
@@ -77,46 +84,53 @@ class _RowColumnWidgetState extends State<RowColumnWidget> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.brown,
+                    height: 200,
+                    width: 200,
+                    //color: Colors.brown,
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                      image: DecorationImage(image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAo7i4V_kcDsstDp4wwb5JSRSmq9bOStwjbw&usqp=CAU'),),
+                    ),
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.brown,
+                    height: 200,
+                    width: 200,
+                    decoration: BoxDecoration(
+                      color: Colors.blueAccent,
+                      image: DecorationImage(image: NetworkImage('https://static.toiimg.com/photo/98650812.cms'),),
+                    ),
                   ),
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.brown,
-                  ),
+                  
                 ],
               ),
               SizedBox(
                 height: 50,
               ),
               Container(
-                height: 100,
-                width: 100,
-                color: Colors.cyanAccent,
+                height: 200,
+                width: 200,
+                //color: Colors.cyanAccent,
+                decoration: BoxDecoration(
+                  color: Colors.amber,
+                  image: DecorationImage(image: NetworkImage('https://icon2.cleanpng.com/20180529/gr/kisspng-ford-figo-car-ford-ecosport-india-price-list-5b0dba96b8b670.1629838215276263907566.jpg'),),
+                ),
               ),
               SizedBox(
                 height: 50,
               ),
               Container(
-                height: 100,
-                width: 100,
-                color: Colors.cyanAccent,
+                height: 200,
+                width: 200,
+                //color: Colors.cyanAccent,
+                decoration:BoxDecoration(
+                  color: Colors.blueGrey,
+                  image: DecorationImage(image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlw-D3BJbkVJqd86mP1k2lT2hTvkROKbBcBQ&usqp=CAU'),),
+                ),
               ),
               SizedBox(
                 height: 50,
               ),
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.cyanAccent,
-              ),
+              
             ],
           ),
         ),
