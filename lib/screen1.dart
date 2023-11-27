@@ -95,7 +95,7 @@ class _homepractice1State extends State<homepractice1> {
         backgroundColor: Colors.red,
         title: Center(child: Text('homepractice')),
       ),
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.black,
       body: Center(
         child: Row(
           children: [
