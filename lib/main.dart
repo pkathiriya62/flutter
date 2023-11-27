@@ -1,6 +1,7 @@
 //import 'package:first_project/practice2.dart';
 //import 'package:first_project/practice2.dart';
-import 'package:first_project/row_column_drawer.dart';
+//import 'package:first_project/row_column_drawer.dart';
+import 'package:first_project/screen1.dart';
 //import 'package:first_project/row_column_drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RowColumnWidget(),
+      home: const homepractice1(),
     );
   }
 }
