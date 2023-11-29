@@ -96,14 +96,37 @@ class _homepractice1State extends State<homepractice1> {
         title: Center(child: Text('homepractice')),
       ),
       backgroundColor: Colors.blue,
-      body: Center(
-        child: Row(
-          children: [
-            Center(
-              child: Column(
-                children: [
-                  Center(
-                    child: Padding(
+      body: SingleChildScrollView(
+        child: Center(
+          child: Row(
+            children: [
+              Center(
+                child: Column(
+                  children: [
+                    Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 150,
+                          width: 150,
+                          decoration: BoxDecoration(
+                            color: Colors.deepOrange,
+                            boxShadow: [
+                              BoxShadow(blurRadius: 100, color: Colors.purple),
+                            ],
+                            border: Border.all(),
+                            borderRadius: BorderRadius.circular(30),
+                          ),
+                          child: Center(
+                              child: Text('practice',
+                                  style: GoogleFonts.aBeeZee(
+                                      fontSize: 30,
+                                      color: Colors.amber,
+                                      fontWeight: FontWeight.w800))),
+                        ),
+                      ),
+                    ),
+                    Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
                         height: 150,
@@ -115,89 +138,39 @@ class _homepractice1State extends State<homepractice1> {
                           ],
                           border: Border.all(),
                           borderRadius: BorderRadius.circular(30),
-                        ),
-                        child: Center(
-                            child: Text('practice',
-                                style: GoogleFonts.aBeeZee(
-                                    fontSize: 30,
-                                    color: Colors.amber,
-                                    fontWeight: FontWeight.w800))),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 150,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.deepOrange,
-                        boxShadow: [
-                          BoxShadow(blurRadius: 100, color: Colors.purple),
-                        ],
-                        border: Border.all(),
-                        borderRadius: BorderRadius.circular(30),
-                        image: DecorationImage(
-                          image: NetworkImage(
-                              'https://cdn.iconfinder.com/data/family/previews/preview/pop.png?indexed=1694684691'),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                'https://cdn.iconfinder.com/data/family/previews/preview/pop.png?indexed=1694684691'),
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 150,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.deepOrange,
-                        boxShadow: [
-                          BoxShadow(blurRadius: 100, color: Colors.purple),
-                        ],
-                        border: Border.all(),
-                        borderRadius: BorderRadius.circular(30),
-                        image: DecorationImage(
-                          image: NetworkImage(
-                              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCMs1hDgvWKaVG5GwNq6llw5ui7gjwhTX8JQ&usqp=CAU'),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 150,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 255, 34, 156),
-                        boxShadow: [
-                          BoxShadow(blurRadius: 100, color: Colors.purple),
-                        ],
-                        border: Border.all(),
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      child: Center(
-                          child: Text('Homework',
-                              style: GoogleFonts.aBeeZee(
-                                  fontSize: 20,
-                                  color: Colors.amber,
-                                  fontWeight: FontWeight.w800))),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Center(
-              child: Column(
-                children: [
-                  Center(
-                    child: Padding(
+                    Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
                         height: 150,
                         width: 150,
                         decoration: BoxDecoration(
-                          color: Colors.indigo,
+                          color: Colors.deepOrange,
+                          boxShadow: [
+                            BoxShadow(blurRadius: 100, color: Colors.purple),
+                          ],
+                          border: Border.all(),
+                          borderRadius: BorderRadius.circular(30),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCMs1hDgvWKaVG5GwNq6llw5ui7gjwhTX8JQ&usqp=CAU'),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 150,
+                        width: 150,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 255, 34, 156),
                           boxShadow: [
                             BoxShadow(blurRadius: 100, color: Colors.purple),
                           ],
@@ -205,77 +178,106 @@ class _homepractice1State extends State<homepractice1> {
                           borderRadius: BorderRadius.circular(30),
                         ),
                         child: Center(
-                            child: Text('hello',
+                            child: Text('Homework',
                                 style: GoogleFonts.aBeeZee(
-                                    fontSize: 30,
-                                    color: Colors.blueAccent,
+                                    fontSize: 20,
+                                    color: Colors.amber,
                                     fontWeight: FontWeight.w800))),
                       ),
                     ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 150,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.deepOrange,
-                        boxShadow: [
-                          BoxShadow(blurRadius: 100, color: Colors.purple),
-                        ],
-                        border: Border.all(),
-                        borderRadius: BorderRadius.circular(30),
-                        image: DecorationImage(
-                          image: NetworkImage(
-                              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq7xtCg8FHMzMlRoDJALNGDBrtCE-bhpH5pwrmkkZ0voKAzjEvDEGrGvfxiKxrmqTiRjI&usqp=CAU'),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 150,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.deepOrange,
-                        boxShadow: [
-                          BoxShadow(blurRadius: 100, color: Colors.purple),
-                        ],
-                        border: Border.all(),
-                        borderRadius: BorderRadius.circular(30),
-                        image: DecorationImage(
-                          image: NetworkImage(
-                              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR73broZuXihBx0tLGP7_gE5FvPHdCoK8OMSg&usqp=CAU'),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 150,
-                      width: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.purpleAccent,
-                        boxShadow: [
-                          BoxShadow(blurRadius: 100, color: Colors.purple),
-                        ],
-                        border: Border.all(),
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      child: Center(
-                          child: Text('how!',
-                              style: GoogleFonts.aBeeZee(
-                                  fontSize: 30,
-                                  color: Colors.blue,
-                                  fontWeight: FontWeight.w800))),
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-          ],
+              Center(
+                child: Column(
+                  children: [
+                    Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 150,
+                          width: 150,
+                          decoration: BoxDecoration(
+                            color: Colors.indigo,
+                            boxShadow: [
+                              BoxShadow(blurRadius: 100, color: Colors.purple),
+                            ],
+                            border: Border.all(),
+                            borderRadius: BorderRadius.circular(30),
+                          ),
+                          child: Center(
+                              child: Text('hello',
+                                  style: GoogleFonts.aBeeZee(
+                                      fontSize: 30,
+                                      color: Colors.blueAccent,
+                                      fontWeight: FontWeight.w800))),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 150,
+                        width: 150,
+                        decoration: BoxDecoration(
+                          color: Colors.deepOrange,
+                          boxShadow: [
+                            BoxShadow(blurRadius: 100, color: Colors.purple),
+                          ],
+                          border: Border.all(),
+                          borderRadius: BorderRadius.circular(30),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq7xtCg8FHMzMlRoDJALNGDBrtCE-bhpH5pwrmkkZ0voKAzjEvDEGrGvfxiKxrmqTiRjI&usqp=CAU'),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 150,
+                        width: 150,
+                        decoration: BoxDecoration(
+                          color: Colors.deepOrange,
+                          boxShadow: [
+                            BoxShadow(blurRadius: 100, color: Colors.purple),
+                          ],
+                          border: Border.all(),
+                          borderRadius: BorderRadius.circular(30),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR73broZuXihBx0tLGP7_gE5FvPHdCoK8OMSg&usqp=CAU'),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 150,
+                        width: 150,
+                        decoration: BoxDecoration(
+                          color: Colors.purpleAccent,
+                          boxShadow: [
+                            BoxShadow(blurRadius: 100, color: Colors.purple),
+                          ],
+                          border: Border.all(),
+                          borderRadius: BorderRadius.circular(30),
+                        ),
+                        child: Center(
+                            child: Text('how!',
+                                style: GoogleFonts.aBeeZee(
+                                    fontSize: 30,
+                                    color: Colors.blue,
+                                    fontWeight: FontWeight.w800))),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
