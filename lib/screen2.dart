@@ -44,15 +44,82 @@ class _PracticeState extends State<Practice> {
               ),
             ),
           ],
-          
         ),
       ),
       appBar: AppBar(
         actions: [
           Icon(Icons.search),
         ],
-         title: Center(child: Text('Myapp')),
+        title: Center(child: Text('Myapp')),
         backgroundColor: Colors.cyanAccent,
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            Expanded(
+              child: Container(
+                //height: 150,
+                width: double.infinity,
+                color: Colors.blue[200],
+                child: Center(
+                  child: Text(
+                    'Data',
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Expanded(
+              child: Container(
+                //height: 150,
+                width: double.infinity,
+                color: Colors.brown[300],
+                child: Center(
+                  child: Text(
+                    'Data',
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Expanded(
+              child: Container(
+                //height: 150,
+                width: double.infinity,
+                color: Colors.deepOrange[300],
+                child: Center(
+                  child: Text(
+                    'Data',
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Expanded(
+              child: Container(
+                //height: 150,
+                width: double.infinity,
+                color: Colors.green[300],
+                child: Center(
+                  child: Text(
+                    'Data',
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

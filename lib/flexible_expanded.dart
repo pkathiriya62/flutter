@@ -21,7 +21,7 @@ class _ExpandedscreenState extends State<Expandedscreen> {
               height: 100,
               //width: 100,
               color: Colors.cyan,
-              child: Center(child: Text('data')),
+              child:  Text('data'),
             ),
           ),
           Expanded(

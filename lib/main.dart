@@ -1,6 +1,8 @@
 //import 'package:first_project/screen2.dart';
 //import 'package:first_project/cliprrect_clipoval_cliprect.dart';
-import 'package:first_project/flexible_expanded.dart';
+//import 'package:first_project/flexible_expanded.dart';
+//import 'package:first_project/screen2.dart';
+import 'package:first_project/stack.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Expandedscreen(),
+      home: const Stackscreen(),
     );
   }
 }
