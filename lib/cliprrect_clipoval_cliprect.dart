@@ -19,7 +19,7 @@ class _CliprrectscreenState extends State<Cliprrectscreen> {
          // borderRadius: BorderRadius.all(Radius.circular(100)),
           child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeg6OfqNJSXwplG-i3qSd4ULSZr49NX_nmyA&usqp=CAU'),
         ),
-
+   
         
       ),
     );  
