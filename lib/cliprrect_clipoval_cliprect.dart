@@ -22,6 +22,6 @@ class _CliprrectscreenState extends State<Cliprrectscreen> {
 
         
       ),
-    );
+    );  
   }
 }
