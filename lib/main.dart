@@ -3,7 +3,7 @@
 //import 'package:first_project/flexible_expanded.dart';
 //import 'package:first_project/screen2.dart';
 //import 'package:first_project/stack.dart';
-import 'package:first_project/divider.dart';
+//import 'package:first_project/divider.dart';
 import 'package:first_project/spacer.dart';
 import 'package:flutter/material.dart';
 
