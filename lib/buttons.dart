@@ -39,13 +39,14 @@ class Buttonscreen extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 30,),
-             Container(
+            SizedBox(
+              height: 30,
+            ),
+            Container(
               height: 40,
               width: double.infinity,
               decoration: BoxDecoration(
-                  color: Colors.amber,
-                  borderRadius: BorderRadius.circular(10)),
+                  color: Colors.amber, borderRadius: BorderRadius.circular(10)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -64,8 +65,10 @@ class Buttonscreen extends StatelessWidget {
                 ],
               ),
             ),
-             SizedBox(height: 30,),
-             Container(
+            SizedBox(
+              height: 30,
+            ),
+            Container(
               height: 40,
               width: double.infinity,
               decoration: BoxDecoration(
@@ -84,6 +87,32 @@ class Buttonscreen extends StatelessWidget {
                   ),
                   Text(
                     'Login With ButtonId',
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ),
+                ],
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              height: 40,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                  color: Colors.black, borderRadius: BorderRadius.circular(10)),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.wechat_sharp,
+                    size: 30,
+                    color: Colors.white,
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    'Login With Wechat',
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                 ],
