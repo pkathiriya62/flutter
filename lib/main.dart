@@ -1,4 +1,6 @@
-import 'package:first_project/gridviewbuild.dart';
+// import 'package:first_project/gridviewbuild.dart';
+import 'package:first_project/gridview.dart';
+// import 'package:first_project/listviewbuild.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const GridviewBuilder(),
+      home: const GridviewScreen(),
     );
   }
 }
