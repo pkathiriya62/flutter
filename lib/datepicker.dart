@@ -20,7 +20,7 @@ class _DatepickerscreenState extends State<Datepickerscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: Colors.grey,
       ),
       body: Container(
         padding: const EdgeInsets.all(15),
