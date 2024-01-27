@@ -1,4 +1,6 @@
-import 'package:first_project/datepicker.dart';
+// import 'package:first_project/countrypicker.dart';
+import 'package:first_project/timepicker.dart';
+// import 'package:first_project/datepicker.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Datepickerscreen(),
+      home: const Timepickerscreen(),
     );
   }
 }
